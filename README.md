@@ -14,13 +14,13 @@ Favorites Tray: An interactive Favourite  item summary where users can inspect t
 # Application Showcase
 
 # 1. Default Home View
-Home Page - (./public/homepage.png)
+Home Page - (./public/screenshots/homepage.png)
 
 # 2. Hover State on Product Button
-Hover Button Effect - (./public/hoverbutton.png)
+Hover Button Effect - (./public/screenshots/hoverbutton.png)
 
 # 3. One Item Favorited
-One Favorite Item - (./public/onefavitem.png)
+One Favorite Item - (./public/screenshots/onefavitem.png)
 
 # 4. Multiple Favorite Items & Summary
-Two Items Favorited - (./public/twoitems.png)
+Two Items Favorited - (./public/screenshots/twoitems.png)
