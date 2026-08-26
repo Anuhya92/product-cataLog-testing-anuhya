@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Image from "next/image";
 import { Product } from "@/types/products";
 import { useState } from "react";
+import ProductList from "@/components/ProductList";
 const products: Product[] = [
   {
     id: "1",
@@ -83,6 +84,13 @@ export default function Home() {
   return (
     <div className="">
      <Header favoriteCount={0} />
+     <main className="mx-auto max-w-5xl px-4 py-8">
+        <ProductList
+          products={products}
+          favorites={favorites}
+          onToggleFavorite={handleToggleFavorite}
+        />
+        </main>
     </div>
     
   );
