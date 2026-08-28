@@ -1,7 +1,7 @@
 import { render, screen, fireEvent } from "@testing-library/react";
 import Home from "@/app/page";
 import FavoritesSummary from "@/components/FavoritesSummary";
-import { Product } from "@/types/products";
+import type { Product } from "@/types/products";
 
 const testProduct: Product = {
   id: "1",
