@@ -1,4 +1,4 @@
-import { Product } from "@/types/products";
+import type { Product } from "@/types/products";
 
 interface FavoritesSummaryProps {
   favorites: Product[];

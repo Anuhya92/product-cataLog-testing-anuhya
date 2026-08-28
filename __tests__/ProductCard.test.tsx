@@ -1,5 +1,6 @@
 import { render, screen, fireEvent } from "@testing-library/react";
 import ProductCard from "@/components/ProductCard";
+import type { Product } from "@/types/products";
 
 const testProduct: Product = {
   id: "1",
