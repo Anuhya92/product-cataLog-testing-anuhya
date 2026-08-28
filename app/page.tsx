@@ -4,6 +4,7 @@ import type { Product } from "@/types/products";
 import { useState } from "react";
 import ProductList from "@/components/ProductList";
 import FavoritesSummary from "@/components/FavoritesSummary";
+import Footer from "@/components/Footer";
 const products: Product[] = [
   {
     id: "1",
@@ -80,9 +81,9 @@ export default function Home() {
     setFavorites([]);
   };
   return (
-    <div className="">
+    <div className="flex flex-col min-h-screen">
       <Header favoriteCount={favorites.length} />
-      <main className="mx-auto max-w-5xl px-4 py-8">
+      <main className="mx-auto w-full max-w-5xl flex-1 px-4 py-10 sm:px-6">
         <ProductList
           products={products}
           favorites={favorites}
@@ -93,6 +94,7 @@ export default function Home() {
           onClearFavorites={handleClearFavorites}
         />
       </main>
+      <Footer/>
     </div>
   );
 }
